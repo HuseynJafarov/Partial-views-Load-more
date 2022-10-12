@@ -1,0 +1,252 @@
+﻿
+@model IEnumerable<Accessories>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<main>
+    <section id="images">
+        <div class="my-container">
+            <div class="images">
+                <div class="text" style="padding-top: 150px;">
+                    <span>Accessories</span>
+                    <h5>Choose The Wide Range Of Best Accessories.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="accessories">
+        <div class="my-container my-5">
+            <div class="row">
+                <div class="col-3">
+                    <div class="search">
+                        <input type="text" placeholder="Search Products">
+                    </div>
+                    <div class="brand my-3">
+                        <h4>Brand</h4>
+                        <input class="text my-3" type="text" placeholder="Search Here"><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Samsung</label>
+                        <span class="num">156</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Hp</label>
+                        <span class="num">150</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Sony</label>
+                        <span class="num">128</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Apple</label>
+                        <span class="num">107</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">GE</label>
+                        <span class="num">85</span><br>
+                    </div>
+                    <div class="type my-3">
+                        <h4>Type</h4>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Monitoring devices</label>
+                        <span class="num">65</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Unlocked handsets</label>
+                        <span class="num">61</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Multifunction print</label>
+                        <span class="num">59</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Wireless speakers</label>
+                        <span class="num">53</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Legacy smartwatches</label>
+                        <span class="num">51</span>
+                    </div>
+                    <div class="category my-3">
+                        <h4>Category</h4>
+                        <input class="text my-3" type="text" placeholder="Search Here"><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Appliances</label>
+                        <span class="num">907</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Computers & Tablets</label>
+                        <span class="num">829</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Audio</label>
+                        <span class="num">591</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">TV & Home Theater</label>
+                        <span class="num">400</span><br>
+                        <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1">Home Audio</label>
+                        <span class="num">307</span>
+                    </div>
+                    <div class="price my-3">
+                        <h4>Price</h4>
+                        <input type="radio" id="age1" name="age" value="30">
+                        <label for="age1">Below $10</label><br>
+                        <input type="radio" id="age2" name="age" value="60">
+                        <label for="age2">$10-$100</label><br>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">$100-$500</label><br>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">Above $500</label><br>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">All</label>
+                        <div class="input-num my-3">
+                            <h4>Enter Price Range</h4>
+                            <div class="input">
+                                <input type="number" id="quantity" name="quantity" min="1" placeholder="1">
+                                <span>-</span>
+                                <input type="number" id="quantity" name="quantity" min="500" placeholder="5000">
+                                <button type="button" class="btn btn-danger">Go</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rating-menu">
+                        <h4>Rating Menu</h4>
+                        <div class="line">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span class="num">2179</span>
+                        </div>
+                        <div class="line">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="num">17579</span>
+                        </div>
+                        <div class="line">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="num">17819</span>
+                        </div>
+                        <div class="line">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="num">17269</span>
+                        </div>
+                        <div class="line">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="num">18046</span>
+                        </div>
+                    </div>
+                    <div class="clear-filter my-5">
+                        <button type="button" class="btn btn-danger my-3">Clear filters</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <select class="select" name="select" id="cars">
+                        <option value="fatured">Fatured</option>
+                        <option value="lowest">Lowest Price</option>
+                        <option value="highest">Highest Price</option>
+                    </select>
+
+                    <partial name="_AccessoriesPartial" model="@Model" />
+
+
+                    <div class="pages-nums my-5">
+                        <i class="fa-solid fa-angles-left i-left"></i>
+                        <i class="fa-solid fa-angle-left i-left"></i>
+                        <span class="first">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <i class="fa-solid fa-angle-right i-right"></i>
+                        <i class="fa-solid fa-angles-right i-right"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+
+
+                    @foreach (var item in Model)
+                    {<div data-id="@item.Id" class="one-cart">
+                            <div class="product">
+                                <i class="fa-solid fa-heart"></i>
+                                <img src="~/assets/images/accessories/@item.Image" alt="" />
+                            </div>
+                            <div class="product-info">
+                                <a href="">
+                                    <h5>@item.Description</h5>
+                                </a>
+                                <div class="shop-icon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <span>$ @item.Price</span>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+
+
+
+                </div>
+                <div class="col-3">
+                    <div class="right">
+                        <h6>18.046 results found in 5ms</h6>
+                    </div>
+                    @foreach (var item in Model)
+                    {<div data-id="@item.Id" class="one-cart">
+                            <div class="product">
+                                <i class="fa-solid fa-heart"></i>
+                                <img src="~/assets/images/accessories/@item.Image" alt="" />
+                            </div>
+                            <div class="product-info">
+                                <a href="">
+                                    <h5>@item.Description</h5>
+                                </a>
+                                <div class="shop-icon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <span>$ @item.Price</span>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+
+
+
+                </div>
+                <div class="show-more d-flex justify-content-center my-2 mb-2">
+                    <a class="btn btn-danger">Show more ...</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+

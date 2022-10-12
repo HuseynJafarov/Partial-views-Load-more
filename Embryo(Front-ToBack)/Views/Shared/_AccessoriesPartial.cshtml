@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Accessories>
+
+
+@foreach (var item in Model)
+{
+    <div data-id="@item.Id" class="one-cart">
+        <div class="product">
+            <i class="fa-solid fa-heart"></i>
+            <img src="~/assets/images/accessories/@item.Image" alt="" />
+        </div>
+        <div class="product-info">
+            <a href="">
+                <h5>@item.Description</h5>
+            </a>
+            <div class="shop-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <span>$ @item.Price</span>
+            <div class="star-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+    </div>
+}
